@@ -48,7 +48,7 @@ Install dependencies
 Run the attack
 
 ```bash
-  python teardrop.py <target_ip> [payload_size] [--frag_overlap_offset OFFSET] [--packet_size SIZE] [--indefinite] [--proxy PROXY]
+  sudo python teardrop.py <target_ip> [payload_size] [--frag_overlap_offset OFFSET] [--packet_size SIZE] [--indefinite] [--proxy PROXY]
 ```
 
 
