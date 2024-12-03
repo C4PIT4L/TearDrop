@@ -61,7 +61,9 @@ class PacketCrafter:
 
         selected_device = devices[selected_device_index]
         print(f"Selected device: {selected_device[0]} with IP {selected_device[1]}")
-        return selected_device[1]
+
+        self.local_ip = selected_device[1]
+        return selected_device[0]
 
     def create_fragment(self, frag_offset, data):
         """Create a single fragmented packet."""
